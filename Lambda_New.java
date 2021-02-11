@@ -3,6 +3,7 @@ package com.example.java;
 public class Lambda_New {
 
     public static void main(String args[]) {
+        //Using custom made functional Interface
         Calculate add = (a, b) -> a + b;
         Calculate substract = (a, b) -> a - b;
         Calculate multiply = (a, b) -> a * b;
